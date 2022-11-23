@@ -1,0 +1,18 @@
+python -m venv venv
+python -m venv thalita # Máquina Virtual 
+
+# Para entrar na MV
+cd venv/Scripts # Command Promp
+
+activate
+
+pip freeze # para ver o que tem instalado na MV
+
+pip install pymysql
+pip install pandas
+
+cd .. # para voltar 
+
+pip freeze # para ver as bibliotecas instaladas 
+
+python main.py # para rodar o codigo 
